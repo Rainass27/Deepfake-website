@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Globe with User Data -->
+
+  <link rel="stylesheet" href="style.css">
+  
+  <div class="globe-container">
+    
+    <img class="globe" src="globe anim.jpg" alt="">
+    <div class="header">DEEPFAKE TECHNOLOGY</div>
+    <br>
+    <div class="sub-header">and its impact on Political and Democratic discourses</div>
+  </div>
+  <title>Deepfake Digital Storytelling</title>
+  <style>
+    /* Page background color */
+    body {
+      background-color: #333; /* Light black background */
+      color: #f4f4f9; /* Light text color for readability */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    /* Image overlay */
+    img {
+      opacity: 0.9; /* Slight transparency for images */
+      display: block;
+      margin: 10px 0;
+      max-width: 100%;
+    }
+
+    h1, h2, h3, p {
+      text-align: center;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    ul li {
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  
+
+  <!-- About Deepfake Section -->
+  <br>
+  <section class="learning-section">
+  <button>LETS LEARN </button><br><br><br>
+  <p>A brief introduction to deepfake technology:<br><br>
+    Deepfake technology is a type of artificial intelligence (AI) that creates realistic-looking fake images, videos, and audio recordings. The term is a combination of "deep learning" and "fake". 
+ 
+Deepfakes can be used for legitimate purposes, such as in entertainment, video games, and customer support. However, they can also be used to spread misinformation, impersonate people, or commit fraud.
+  </p>
+  
+  <!-- Carousel Substitute: Image List -->
+  <br><br><br><br><br>
+  <h3>Examples of deepfake videos and images in real-world contexts:</h3>
+<br><br>
+    <ul class="carousel-images">
+       
+        <img src="case1.jpg" alt="">
+       <img src="case2.jpg" alt="">
+         <img src="image3.jpg" alt="">
+    </ul>    
+       </div>
+     </div>
+
+     <br><br>
+     <br><br><br><br><br><br>
+<!--Flashcards-->
+    <div class="flashcards-container">
+    <div class="flashcard">
+      <div class="flashcard-inner">
+        <div class="flashcard-front">
+          <p>Politics and Democratic Discourses</p>
+        </div>
+        <div class="flashcard-back">
+          <p>"CLICK" to learn more</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flashcard">
+      <div class="flashcard-inner">
+        <div class="flashcard-front">
+          <p>Consequences</p>
+        </div>
+        <div class="flashcard-back">
+          <p>"CLICK" to learn more</p>
+        </div>
+      </div>
+    </div>
+      <div class="flashcard">
+      <div class="flashcard-inner">
+        <div class="flashcard-front">
+          <p>Explore Solutions</p>
+        </div>
+        <div class="flashcard-back">
+          <p>"CLICK" to learn more</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+   <br><br><br><br><br> 
+ <!-- Quiz Section -->
+<section class="quiz-section">
+  <button> Lets Play a Quiz</button>
+<br><br>
+  <!-- Question 1 -->
+  <div class="quiz-question">
+    <p><strong>Question 1:</strong> Is this video real or deepfake?<br><span id="score1" class="score">Score: 0/10</span></p>
+   <img src="image1.jpg" alt="">
+    
+    <button class="quiz-option" onclick="answerQuestion(1, 'real')">Real</button>
+    <button class="quiz-option" onclick="answerQuestion(1, 'fake')">Fake</button>
+  
+    
+  </div>
+  <!-- Question 2 -->
+  <div class="quiz-question">
+    <p><strong>Question 2:</strong> So you think this is a fake image?<br><span id="score2" class="score">Score: 0/10</span></p>
+   <img src="image1.jpg" alt="">
+   <button class="quiz-option" onclick="answerQuestion(2, 'yes')">Yes</button>
+    <button class="quiz-option" onclick="answerQuestion(2, 'no')">No</button>
+  </div>
+
+  <!-- Question 3 -->
+  <div class="quiz-question">
+    <p><strong>Question 3:</strong> This is a Real iamge. True or False?<br><span id="score3" class="score">Score: 0/10</span></p>
+    <img src="image1.jpg" alt="">
+    <button class="quiz-option" onclick="answerQuestion(3, 'real')">Real</button>
+    <button class="quiz-option" onclick="answerQuestion(3, 'fake')">Fake</button>
+  </div>
+  <!-- Question 4 -->
+  <div class="quiz-question">
+    <p><strong>Question 4:</strong> Guess this image. Real or Fake?<br><span id="score4" class="score">Score: 0/10</span></p>
+    <img src="image1.jpg" alt="">
+   <button class="quiz-option" onclick="answerQuestion(4, 'real')">Real</button>
+    <button class="quiz-option" onclick="answerQuestion(4, 'fake')">Fake</button>
+    </div>
+   <!-- Question 5 -->
+  <div class="quiz-question">
+    <p><strong>Question 5:</strong> This is a Real video of the memeber of Parliament?<br><span id="score5" class="score">Score: 0/10</span></p>
+    <img src="image1.jpg" alt="">
+    <button class="quiz-option" onclick="answerQuestion(5, 'real')">Real</button>
+    <button class="quiz-option" onclick="answerQuestion(5, 'fake')">Fake</button>
+    </div>
+   <!-- Question 6 -->
+  <div class="quiz-question">
+    <p><strong>Question 6:</strong> Is this the influenecr we really know?<br><span id="score6" class="score">Score: 0/10</span></p>
+    <img src="image1.jpg" alt="">
+   <button class="quiz-option" onclick="answerQuestion(6, 'true')">True</button>
+    <button class="quiz-option" onclick="answerQuestion(6, 'false')">False</button>
+    </div>
+   <!-- Question 7 -->
+  <div class="quiz-question">
+    <p><strong>Question 7:</strong> Faeke or Real?<br><span id="score7" class="score">Score: 0/10</span></p>
+    <img src="image1.jpg" alt="">
+    <button class="quiz-option" onclick="answerQuestion(7, 'real')">Real</button>
+    <button class="quiz-option" onclick="answerQuestion(7, 'fake')">Fake</button>
+    </div>
+   <!-- Question 8 -->
+  <div class="quiz-question">
+    <p><strong>Question 8:</strong> is this really true?<br><span id="score8" class="score">Score: 0/10</span></p>
+    <img src="image1.jpg" alt="">
+   <button class="quiz-option" onclick="answerQuestion(8, 'true')">True</button>
+    <button class="quiz-option" onclick="answerQuestion(8, 'false')">False</button>
+    </div>
+   <!-- Question 9 -->
+  <div class="quiz-question">
+    <p><strong>Question 9:</strong> Guess this image. Real or Fake?<br><span id="score9" class="score">Score: 0/10</span></p>
+    <img src="image1.jpg" alt="">
+    <button class="quiz-option" onclick="answerQuestion(9, 'real')">Real</button>
+    <button class="quiz-option" onclick="answerQuestion(9, 'fake')">Fake</button>
+    </div>
+   <!-- Question 10 -->
+  <div class="quiz-question">
+    <p><strong>Question 10:</strong> Guess this video. Real or Fake?<br><span id="score10" class="score">Score: 0/10</span></p>
+    <img src="image1.jpg" alt="">
+    <button class="quiz-option" onclick="answerQuestion(10, 'real')">Real</button>
+    <button class="quiz-option" onclick="answerQuestion(10, 'fake')">Fake</button>
+    </div>
+</section>
+<!-- Conclusion Box (Hidden Initially) -->
+  <div class="conclusion-box" id="conclusionBox">
+    <p>Congratulations! You've completed the quiz!</p>
+    <button onclick="finishQuiz()">Finish</button>
+  </div>
+
+  <script>
+    let questionCount = 0; // Track the number of answered questions
+    const totalQuestions = 10; // Total number of questions
+
+    // Function to handle when a question is answered
+    function nextQuestion() {
+      questionCount++;
+      
+      // Once all questions are answered, show the conclusion box
+      if (questionCount === totalQuestions) {
+        document.getElementById('conclusionBox').style.display = 'block';
+      }
+    }
+
+    // Function for the "Finish" button click
+    function finishQuiz() {
+      alert('You have finished the quiz!');
+      // Optionally, you can redirect or close the page here
+    }
+  </script>
+
+
+</body>
+</html>
